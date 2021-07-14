@@ -1,0 +1,61 @@
+# Name: Sofia Rodriguez
+# NetID: srr9953
+
+# import numpy library
+import numpy as np
+
+# declare array commute
+commute = [30, 60, 40, 42, 39]
+
+#compute avg time under var avg
+avg = sum(commute)/5
+
+# declare numpy array commute_array
+commute_array = np.array([30, 60, 40, 42, 39])
+
+#declare comute_array_seconds
+commute_array_seconds = commute_array * 60
+# it gives you ----
+
+#compute avg commute time using mean function
+commuteAvg = mean(commute_array)
+
+
+##find the diff in the longest and shortest commute times from the avg
+biggestNum = commute_array[0];
+smallestNum = commute_array[0]
+for (i = 1; i < commute.length; i++){
+  if commute_array[i]>biggestNum{
+    biggestNum = commute_array[i]
+  }
+  if (commute_array[i]<smallestNum){
+    smallestNum = commute_array[i]
+  }
+}
+
+diffSmallest = smallestNum - commuteAvg
+diffLargest = biggestNum - commuteAvg
+print("Difference between the smallest num and the avg ", diffSmallest)
+print("Difference between the largest num and the avg ", diffLargest)
+
+#declare list fave_westvillage_restaurants
+fave_westvillage_restaurants = ['tacombi', 'grey dog', 'chloe', 'pommes frites', 'pho bar']
+#find how many elements in the array
+numElements = ------------
+print(numElements)
+
+# Ali and Sam in the restaurant
+# declare variables
+taxRate = 0.08875
+flatFoodPrice = 9.62 + 11.48
+subtotalWithTax = flatFoodPrice* (1 + 0.08875)
+finalTotal = subtotalWithTax + 3.15
+print(finalTotal)
+
+# percent of total that is tip
+tipPercent = 3.15/subtotalWithTax*100
+print('the tip is ', tipPectent, '%', 'of the total price')
+
+
+
+
