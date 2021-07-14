@@ -1,6 +1,8 @@
 # Name: Sofia Rodriguez
 # NetID: srr9953
 
+
+#2. 
 # import numpy library
 import numpy as np
 
@@ -38,12 +40,15 @@ diffLargest = biggestNum - commuteAvg
 print("Difference between the smallest num and the avg ", diffSmallest)
 print("Difference between the largest num and the avg ", diffLargest)
 
+
+#3. 
 #declare list fave_westvillage_restaurants
 fave_westvillage_restaurants = ['tacombi', 'grey dog', 'chloe', 'pommes frites', 'pho bar']
 #find how many elements in the array
 numElements = len(fave_westvillage_restaurants)
 print(numElements)
 
+#4. 
 # Ali and Sam in the restaurant
 # declare variables
 taxRate = 0.08875
