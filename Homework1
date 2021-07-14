@@ -41,7 +41,7 @@ print("Difference between the largest num and the avg ", diffLargest)
 #declare list fave_westvillage_restaurants
 fave_westvillage_restaurants = ['tacombi', 'grey dog', 'chloe', 'pommes frites', 'pho bar']
 #find how many elements in the array
-numElements = ------------
+numElements = len(fave_westvillage_restaurants)
 print(numElements)
 
 # Ali and Sam in the restaurant
